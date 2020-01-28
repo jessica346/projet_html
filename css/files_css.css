@@ -1,0 +1,83 @@
+body
+{
+    background-color: #c8c8c8;
+    font-family:Roboto;
+}
+#titre1
+{
+    text-align: center;
+    font-size: 350%;
+}
+h1,h2
+{
+    font-family:Baskerville;
+}
+#link1
+{
+    position: relative;
+    top: -35px;
+    left: 508px;
+    color: red;
+    font-weight: bold;
+}
+#paraghe3
+{
+  margin-top: -10px; 
+}
+h2
+{
+    color: red;
+    font-weight: bold; 
+}
+#titrecellule
+{
+    text-align: center;
+}
+thead
+{
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+}
+.lignetableau
+{
+    background-color: #dddddd;
+}
+tbody tr:hover
+{
+    background-color: #999999;
+    cursor: pointer;
+} 
+figure
+{
+    background-color: #333333;
+    margin-right: 680px;
+    border:2px solid red;
+    border-radius: 8px 8px 8px 8px;
+}
+figure img
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 480px;
+    height: 480px;
+}
+figure figcaption
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.paraghe4
+{
+    margin-left: 18px;
+    margin-right: 100px;
+    border: 2px solid #4e41ae;
+}
+.paraghe4 p
+{
+    margin-left: 18px;
+    margin-right: 13px;
+    color: #4e41ae;
+}
+

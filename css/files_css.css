@@ -2,11 +2,29 @@ body
 {
     background-color: #c8c8c8;
     font-family:Roboto;
+    
 }
+.corpsdelapage
+{
+    margin-top: -28px;
+    margin-left: 100px;
+    margin-right: 120px;
+}
+.corpsdelapage p,a,table
+{
+    font-size: 16px;
+}
+.corpsdelapage a
+{
+    color: red;
+    font-weight: bold;
+}
+
 #titre1
 {
     text-align: center;
-    font-size: 350%;
+    font-size: 450%;
+    padding-top: 10px;
 }
 h1,h2
 {
@@ -16,9 +34,10 @@ h1,h2
 {
     position: relative;
     top: -35px;
-    left: 508px;
+    left: 120px;
     color: red;
     font-weight: bold;
+    
 }
 #paraghe3
 {
@@ -51,33 +70,38 @@ tbody tr:hover
 figure
 {
     background-color: #333333;
-    margin-right: 680px;
+    margin-right: 8px;
+    margin-left: -2px;
     border:2px solid red;
     border-radius: 8px 8px 8px 8px;
 }
 figure img
 {
-    margin-left: 30px;
-    margin-top: 20px;
-    width: 480px;
-    height: 480px;
+    width: 1000px;
+    height: 680px;
+    margin: 18px 18px 18px 18px;
+    
 }
 figure figcaption
 {
     text-align: center;
     color: white;
     font-weight: bold;
+    font-size: 16px;
 }
 .paraghe4
 {
     margin-left: 18px;
     margin-right: 100px;
     border: 2px solid #4e41ae;
+    border-style: dashed;
+    background-color: #b7b7b7;
 }
 .paraghe4 p
 {
     margin-left: 18px;
     margin-right: 13px;
     color: #4e41ae;
+    font-size: 18px;
 }
 

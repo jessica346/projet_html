@@ -1,107 +1,100 @@
-body
-{
-    background-color: #c8c8c8;
-    font-family:Roboto;
-    
+@font-face{
+    font-family: 'Baskerville';
+    src: url('libre-baskerville/LibreBaskerville-Bold.ttf') format('truetype'),
+    url('libre-baskerville/LibreBaskerville-Italic.ttf') format('truetype'),
+    url('libre-baskerville/LibreBaskerville-Regular.ttf') format('truetype');
 }
-.corpsdelapage
-{
+     
+@font-face{      
+    font-family: 'Roboto';     
+    src: url('roboto/Roboto-Regular.ttf') format('truetype'),     
+    url('roboto/Roboto-Bold.ttf') format('truetype'),     
+    url('roboto/Roboto-Italic.ttf') format('truetype'); 
+}
+body{
+    background-color: #c8c8c8;
+    font-family: 'Roboto';
+}
+.corpsdelapage{
     margin-top: -28px;
     margin-left: 100px;
     margin-right: 120px;
 }
-.corpsdelapage p,a,table
-{
+.corpsdelapage p,a,table{
     font-size: 16px;
 }
-.corpsdelapage a
-{
+.corpsdelapage a{
     color: red;
     font-weight: bold;
 }
-
-#titre1
-{
+#titre1{
     text-align: center;
     font-size: 450%;
     padding-top: 10px;
 }
-h1,h2
-{
-    font-family:Baskerville;
+h1,h2{
+    font-family:'Baskerville', Arial, Helvetica, sans-serif;
 }
-#link1
-{
-    position: relative;
-    top: -35px;
-    left: 120px;
+#link1{
     color: red;
     font-weight: bold;
-    
 }
-#paraghe3
-{
-  margin-top: -10px; 
-}
-h2
-{
+h2{
     color: red;
     font-weight: bold; 
 }
-#titrecellule
-{
+table{
+    border-collapse: collapse;
+}
+#titrecellule{
     text-align: center;
 }
-thead
-{
+thead{
     background-color: #333333;
     color: white;
     font-weight: bold;
 }
-.lignetableau
-{
+.lignetableau{
     background-color: #dddddd;
+  ;
 }
-tbody tr:hover
-{
+tbody tr:hover{
     background-color: #999999;
     cursor: pointer;
+    
 } 
-figure
-{
+
+figure{
     background-color: #333333;
-    margin-right: 8px;
+    margin-right: 0px;
     margin-left: -2px;
     border:2px solid red;
     border-radius: 8px 8px 8px 8px;
-}
-figure img
-{
-    width: 1000px;
-    height: 680px;
-    margin: 18px 18px 18px 18px;
-    
-}
-figure figcaption
-{
     text-align: center;
     color: white;
     font-weight: bold;
     font-size: 16px;
 }
-.paraghe4
-{
+figure img{
+    width: 600px;
+    height: 500px;
+    margin: 18px 18px 18px 18px;  
+}
+
+.paraghe4{
     margin-left: 18px;
-    margin-right: 100px;
+    margin-right: 50px;
     border: 2px solid #4e41ae;
     border-style: dashed;
     background-color: #b7b7b7;
+    padding: 14px;
 }
-.paraghe4 p
-{
+.paraghe4 p{
     margin-left: 18px;
     margin-right: 13px;
     color: #4e41ae;
-    font-size: 18px;
+    font-size: 21px;
+    line-height: 34px;
 }
+
 
